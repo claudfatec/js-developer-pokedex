@@ -34,12 +34,16 @@
             <button id="loadMoreButton" type="button">
                 Load More
             </button>
+
+            <button type="button" onClick="comeBack()">Come back!</button>
         </div>
     </section>
 
     <!-- Nosso JS -->
-    <script src="/assets/js/pokemon-model.js"></script>
-    <script src="/assets/js/poke-api.js"></script>
+    <script>function comeBack(){
+        window.location.reload(true);
+    }</script>
+    <script src="/assets/js/pokemon-model.js"></script>    <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 
